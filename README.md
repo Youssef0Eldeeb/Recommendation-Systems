@@ -10,7 +10,7 @@ They are systems or techniques that recommend or suggest a particular product, s
 	 - [Item-based filtering](https://github.com/Youssef0Eldeeb/Recommendation-Systems/blob/master/README.md#item-based-filtering)
  - [Content-based systems](https://github.com/Youssef0Eldeeb/Recommendation-Systems/blob/master/README.md#content-based-systems)
  - [Knowledge-based recommenders](https://github.com/Youssef0Eldeeb/Recommendation-Systems/blob/master/README.md#knowledge-based-recommenders)
- - [Hybrid recommenders](https://github.com/Youssef0Eldeeb/Recommendation-Systems/blob/master/README.md#hybrid-recommenders)
+ - [Hybrid recommenders](https://github.com/Youssef0Eldeeb/Recommendation-Systems#hybrid-recommenders)
 
 ----
 ----
