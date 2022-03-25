@@ -5,13 +5,12 @@
 They are systems or techniques that recommend or suggest a particular product, service, or entity.
 
 ## Types of recommender systems
-
- - Collaborative filtering
-	 - User-based filtering
-	 - Item-based filtering
- - Content-based systems
- - Knowledge-based recommenders
- - Hybrid recommenders
+ - [Collaborative filtering](https://github.com/Youssef0Eldeeb/Recommendation-Systems/blob/master/README.md#collaborative-filtering)
+	 - [User-based filtering](https://github.com/Youssef0Eldeeb/Recommendation-Systems/blob/master/README.md#user-based-filtering)
+	 - [Item-based filtering](https://github.com/Youssef0Eldeeb/Recommendation-Systems/blob/master/README.md#item-based-filtering)
+ - [Content-based systems](https://github.com/Youssef0Eldeeb/Recommendation-Systems/blob/master/README.md#content-based-systems)
+ - [Knowledge-based recommenders](https://github.com/Youssef0Eldeeb/Recommendation-Systems/blob/master/README.md#knowledge-based-recommenders)
+ - [Hybrid recommenders](https://github.com/Youssef0Eldeeb/Recommendation-Systems/blob/master/README.md#hybrid-recommenders)
 
 ----
 ----
