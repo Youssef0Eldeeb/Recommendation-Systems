@@ -27,14 +27,14 @@ The main idea is that if we are able to find users that have bought and liked si
 
 > Ex: *Amazon's Customers who bought this item also bought this item too*
 
-<img width="1000" alt="Customers who bought this item also bought" src="https://user-images.githubusercontent.com/55714593/160233374-ac209a55-b9ad-4a70-85d0-11ec78d8ba91.png">
-<img width="1000" alt="Customers who searched for this item ultimately bought" src="https://user-images.githubusercontent.com/55714593/160233812-4041c564-334c-4c11-a8c4-fa8dcb97c5c8.png">
+<img width="800" alt="Customers who bought this item also bought" src="https://user-images.githubusercontent.com/55714593/160233374-ac209a55-b9ad-4a70-85d0-11ec78d8ba91.png">
+<img width="800" alt="Customers who searched for this item ultimately bought" src="https://user-images.githubusercontent.com/55714593/160233812-4041c564-334c-4c11-a8c4-fa8dcb97c5c8.png">
 
 
 - ## Item-based filtering
 If a group of people have rated two items similarly, then the two items must be similar. Therefore, if a person likes one particular item, they're likely to be interested in the other item too.
 
-<img width="1000" alt="Products related to this item" src="https://user-images.githubusercontent.com/55714593/160233622-dd584e49-dd3d-4daf-becf-58bc6d790d00.png">
+<img width="800" alt="Products related to this item" src="https://user-images.githubusercontent.com/55714593/160233622-dd584e49-dd3d-4daf-becf-58bc6d790d00.png">
 
 ***Collaborative filters suffer from what we call the cold start problem.***
 
