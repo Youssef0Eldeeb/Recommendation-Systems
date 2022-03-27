@@ -1,9 +1,62 @@
-# Recommendation-Systems
-***Building powerful and personalized, recommendation engines with Python***
+
+<br />
+<div align="center">
+  <h2 align="center">Recommendation-Systems</h2>
+   <p align="center">
+    <h4 align="center">Building powerful and personalized, recommendation engines with Python</h4>
+    <br />
+      </p>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#Getting Started with Recommender Systems">Getting Started with Recommender Systems</a>
+      <ul>
+        <li><a href="#What is a recommender system?">What is a recommender system?</a></li>
+        <li><a href="#Types of recommender systems">Types of recommender systems</a></li>
+        <ul>
+        <li><a href="#Collaborative filtering">Collaborative filtering</a></li>
+         <ul>
+        <li><a href="#User-based filtering">User-based filtering</a></li>
+        <li><a href="#Item-based filtering">Item-based filtering</a></li>
+      </ul>
+        <li><a href="#Content-based systems">Content-based systems</a></li>
+        <li><a href="#Knowledge-based recommenders">Knowledge-based recommenders</a></li>
+        <li><a href="#Hybrid recommenders">Hybrid recommenders</a></li>
+      </ul>
+      </ul>
+    </li>
+    <li>
+      <a href="#Manipulating Data with the Pandas Library">Manipulating Data with the Pandas Library</a>
+    </li>
+    <li><a href="#Building an IMDB Top 250 Clone with Pandas">Building an IMDB Top 250 Clone with Pandas</a></li>
+    <ul>
+        <li><a href="#The simple recommender">The simple recommender</a></li>
+        <li><a href="#The knowledge-based recommender">The knowledge-based recommender</a></li>
+      </ul>
+    <li><a href="#Building Content-Based Recommenders">Building Content-Based Recommenders</a></li>
+    <ul>
+        <li><a href="#Plot description-based recommender">Plot description-based recommender</a></li>
+        <li><a href="#Metadata-based recommender">Metadata-based recommender</a></li>
+      </ul>
+    <li><a href="#Getting Started with Data Mining Techniques">Getting Started with Data Mining Techniques</a></li>
+    <ul>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+      </ul>
+    <li><a href="#Building Collaborative Filters">Building Collaborative Filters</a></li>
+     <li><a href="#Hybrid Recommenders">Hybrid Recommenders</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#References">References</a></li>
+  </ol>
+</details>
+
 
 ## What is a recommender systems?
 They are systems or techniques that recommend or suggest a particular product, service, or entity.
-
 ## Types of recommender systems
 
  - [Collaborative filtering](https://github.com/Youssef0Eldeeb/Recommendation-Systems#collaborative-filtering)
