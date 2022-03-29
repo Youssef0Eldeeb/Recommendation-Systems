@@ -32,7 +32,7 @@
     <li>
       <a href="#Manipulating Data with the Pandas Library">Manipulating Data with the Pandas Library</a>
     </li>
-    <li><a href="#Building an IMDB Top 250 Clone with Pandas">Building an IMDB Top 250 Clone with Pandas</a></li>
+    <li><a href="#Building The first recommender">Building The first recommender</a></li>
     <ul>
         <li><a href="#The simple recommender">The simple recommender</a></li>
         <li><a href="#The knowledge-based recommender">The knowledge-based recommender</a></li>
@@ -54,7 +54,7 @@
   </ol>
 </details>
 
-
+# 1. Getting Started with Recommender Systems
 ## What is a recommender systems?
 They are systems or techniques that recommend or suggest a particular product, service, or entity.
 ## Types of recommender systems
@@ -69,13 +69,15 @@ They are systems or techniques that recommend or suggest a particular product, s
 ----
 ----
 
-##  Collaborative filtering
-The power of community to provide recommendations.
+  ##  Collaborative filtering
+ The power of community to provide recommendations.
 Ex: *Amazon*
 
-## Collaborative filtering can be classified into two types:
- 
- - ## User-based filtering
+  Collaborative filtering can be classified into two types:
+   - ## User-based filtering
+
+
+   
 The main idea is that if we are able to find users that have bought and liked similar items in the past, they are more likely to buy similar items in the future too
 
 > Ex: *Amazon's Customers who bought this item also bought this item too*
@@ -106,3 +108,34 @@ Knowledge-based recommenders suffer from the problem of low novelty
 ## Hybrid recommenders
 Hybrid recommenders are robust systems that combine various types of recommender models.
 Hybrid systems try to nullify the disadvantage of one model against an advantage of another.
+
+# 3. Building The first recommender
+- ## The simple recommender
+**The steps that used in this recommender are as follows:**
+			1. Choose a metric (or score) to rate the movies on  
+			2. Decide on the prerequisites for the movie to be featured on the chart 
+			3.  Calculate the score for every movie that satisfies the conditions  
+			4. Output the list of movies in decreasing order of their scores
+			
+ ***The dataset you can download it [from here](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset)***
+
+- ## The knowledge-based recommender
+We are going to go ahead and build a knowledge-based recommender on top of our IMDB Top 250 clone. This will be a simple function that will perform the following tasks:
+1.  Ask the user for the genres of movies he/she is looking for
+2.  Ask the user for the duration
+3.  Ask the user for the timeline of the movies recommended
+4.  Using the information collected, recommend movies to the user that have a high weighted rating (according to the IMDB formula) and that satisfy the preceding conditions
+
+# 4. Building Content-Based Recommenders
+**We are going to build two types of content-based recommender with our movies dataset**
+We use some feature extraction techniques like:
+ - CountVectorizer. you can know more. [from here](https://www.geeksforgeeks.org/using-countvectorizer-to-extracting-features-from-text/)
+ - TF-IDFVectorizer.  you can know more. [from here](https://www.geeksforgeeks.org/understanding-tf-idf-term-frequency-inverse-document-frequency/)
+ 
+Also, you can know more about **The cosine similarity score**. [from here](https://www.sciencedirect.com/topics/computer-science/cosine-similarity)
+ - ## Plot description-based recommender
+    This model compares the descriptions and taglines of different movies, and provides recommendations that have the most similar plot descriptions
+ - ## Metadata-based recommender
+	This model takes a host of features, such as genres, keywords, cast, and crew, into consideration and provides recommendations that are the most similar with respect to the aforementioned features.
+
+
