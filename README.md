@@ -110,6 +110,16 @@ Hybrid recommenders are robust systems that combine various types of recommender
 Hybrid systems try to nullify the disadvantage of one model against an advantage of another.
 
 # 3. Building The first recommender
+
+    I use IMDB's weighted rating formula as our metric
+    	Mathematically, it can be represented as follows:
+    	Weighted Rating (WR) = (v ÷ (v+m)) × R + (m ÷ (v+m)) × C  where
+    	v  is the number of votes garnered by the movie
+    	m  is the minimum number of votes required for the movie to be in the chart (the prerequisite)
+    	R  is the mean rating of the movie
+    	C  is the mean rating of all the movies in the dataset
+
+ 
 - ## The simple recommender
 **The steps that used in this recommender are as follows:**
 			1. Choose a metric (or score) to rate the movies on  
