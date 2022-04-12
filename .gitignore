@@ -1,6 +1,6 @@
 .DS_Store
 
-
+credits.csv
 __pycache__/
 *.py[cod]
 *$py.class
